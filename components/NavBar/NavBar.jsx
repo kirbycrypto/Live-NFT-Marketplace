@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import Image from "next/image";
-import { DiJqueryLogo } from "react-icons/di";
+import { CgHome } from "react-icons/cg";
 //----IMPORT ICON
 import { MdNotifications } from "react-icons/md";
 import { BsSearch } from "react-icons/bs";
@@ -87,7 +87,7 @@ const NavBar = () => {
       <div className={Style.navbar_container}>
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <DiJqueryLogo onClick={() => router.push("/")} />
+            <CgHome onClick={() => router.push("/")} />
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>

@@ -41,20 +41,21 @@
 
 /* //THEME 2 */
 :root{
-  --icons-color: #FFDF2B;
-  --icons-light-color: #ffdf2b57;
-  --icons-bg-color: #FFDF2B;
+  --icons-color: #aa27fb;
+  --icons-light-color: #8d20eda3;
+  --icons-bg-color: #c2c1b8;
   --shadow-dark-color: #555557;
   --bg-shadow-dark-color: #555557;
   --shadow-light-color: #232325;
-  --main-bg-color: #232325;
-  --overlay: #2323255e;
+  --main-bg-color: #070709;
+  --overlay: #e8e8ec5e;
+  --textColor: #f8f4f4;
 
-  --box-shadow: 1px 1px 2px #FFDF2B,
-  -1px -1px 2px #FFDF2B;
+  --box-shadow: 1px 1px 2px #fffef7,
+  -1px -1px 2px #ffffff;
 
-  --box-shadow-2:1px 1px 2px #FFDF2B,
-  -1px -1px 2px #FFDF2B;
+  --box-shadow-2:1px 1px 2px #fffdf5,
+  -1px -1px 2px #ffffff;
 
 }
 
@@ -230,19 +231,19 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   background-color: var(--main-bg-color);
-  color: var(--icons-color);
+  color: var(--icons-bg-color);
 }
 
 input{
-  color: var(--icons-color);
+  color: var(--box-shadow);
 }
 
 input::placeholder{
-  color: var(--icons-color);
+  color: var(--box-shadow);
 }
 
 textarea{
-  color: var(--icons-color);
+  color: var(--box-shadow);
 }
 
 textarea::placeholder{
@@ -260,7 +261,7 @@ a {
 }
 
 ::selection{
-  color: var(--shadow-dark-color);
+  color: var(--box-shadow);
   background: var(--icons-color);
 }
 
