@@ -34,7 +34,7 @@
 }
 
 .SearchBar_box input::placeholder{
-    color: var(--icons-color);
+    color: var(--text-color);
     font-size: 1.2rem;
 }
 
