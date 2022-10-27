@@ -122,7 +122,7 @@ const transferFunds = () => {
         </p>
 
         <div className={Style.transfer_box_history}>
-          {transactions.map((el, i) => (
+          {(transactions|| []).map((el, i) => (
             <div className={Style.transfer_box_history_item} key={i + 1}>
               <Image
                 src={images.transferEther}
